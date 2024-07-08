@@ -3,6 +3,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Grill from "./pages/Grill";
 import Cafe from "./pages/Cafe";
+import Catering from "./pages/Catering";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="grill" element={<Grill />} />
           <Route path="cafe" element={<Cafe />} />
+          <Route path="catering" element={<Catering />} />
         </Route>
       </Routes>
     </BrowserRouter>

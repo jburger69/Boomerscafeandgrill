@@ -1,25 +1,22 @@
 import { Outlet, Link } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 import '../layout.css';
 
 const Layout = () => {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/Grill">Grill</Link>
-          </li>
-          <li>
-            <Link to="/Cafe">Cafe</Link>
-          </li>
-          <li>
-            <Link to="/Catering">Catering</Link>
-          </li>
-        </ul>
-      </nav>
+      <Navbar bg="light" data-bs-theme="light">
+        <Container>
+          <Nav className="me-auto">
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="Grill">Grill</Nav.Link>
+            <Nav.Link href="Cafe">Cafe</Nav.Link>
+            <Nav.Link href="Catering">Catering</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
 
       <Outlet />
     </>

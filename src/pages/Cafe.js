@@ -1,4 +1,5 @@
 import ImageGallery from "react-image-gallery";
+import "../cafe.css";
 import Photo_one from "../images/cafe 1.webp";
 import Photo_two from "../images/cafe 2.webp";
 import Photo_three from "../images/cafe 3.webp";
@@ -51,60 +52,87 @@ const images = [
 
 const Cafe = () => {
     return <>
-      <h1>Boomers Cafe</h1>
-      <h4>
+      <h1 class="color_change">Boomers Cafe</h1>
+      <h5 class="h5_text">
         After 2 years at his current location, Chef Joe has moved the Baby Boomers Dining Room, and the Dining Experience, to within Boomers Cafe and Grill.
         We are transforming the space in our new dining room into the same quality experience you know and expect. Chef Joe and Chef Steve, will be
         preparing the same dinners and special's that our customers appreciate.
-      </h4>
-      <h1>Cafe Menu</h1>
+      </h5>
+      <h1 class="color_change">Cafe Menu</h1>
+      <br></br>
       <div>
-        <h2>Appetizers</h2>
-        <h4>Stuffed Clams</h4>
-        <h4>Bruschetta</h4>
-        <h4>Arancini</h4>
-        <h4>Mussels & Clams Fra Diavolo</h4>
-        <h4>Friend Calamari</h4>
-        <h4>Chicken Wings</h4>
-        <h5>12 Jumbo Wings, choice of Sweet, Hot, Mild, Teriyaki, Garlic Parm</h5>
+        <h2 class="color_change">Appetizers</h2>
+        <br></br>
+        <h4 class="h4_change">Stuffed Clams</h4>
+        <br></br>
+        <h4 class="h4_change">Bruschetta</h4>
+        <br></br>
+        <h4 class="h4_change">Arancini</h4>
+        <br></br>
+        <h4 class="h4_change">Mussels & Clams Fra Diavolo</h4>
+        <br></br>
+        <h4 class="h4_change">Friend Calamari</h4>
+        <br></br>
+        <h4 class="h4_change">Chicken Wings</h4>
+        <h5 class="h5_change">12 Jumbo Wings, choice of Sweet, Hot, Mild, Teriyaki, Garlic Parm</h5>
+        <br></br>
       </div>
       <div>
-        <h2>Entrees</h2>
-        <h5>Served with Soup or Salad</h5>
-        <h4>Cheese Ravioli</h4>
-        <h5>With marinara or Vodka Sauce</h5>
-        <h4>Shrimp Scampi Pasta</h4>
-        <h5>Sauteed Garlic, Lemon, White Wine, Shrimp Stock and Butter</h5>
-        <h4>Shrimp & Broccoli Pasta</h4>
-        <h5>Sauteed Shrimp, with Broccoli, Garlic & Oil, over Fusilli Pasta</h5>
-        <h4>Fettucine Alfredo</h4>
-        <h5>with Chicken/Add 5 | with Shrimp/Add 10</h5>
-        <h4>Seafood Pescatore</h4>
-        <h5>Sauteed Shrimp, Calamari, Clams and Mussels, in a Seafood Marinara Sauce over Linguini Pasta</h5>
-        <h4>Rigatoni A La Vodka</h4>
-        <h5>Rigatoni with Onions, Sage, and Prosciutto, in a Creamy Filetto Sauce with Chicken or Sausage/Add 5 | with Shrimp/Add 10</h5>
-        <h4>Fusilli Misto</h4>
-        <h5>Sauteed Chicken, Sundried Tomatoes, Spinach, Prosciutto, Garlic & Oil, with Fusilli Pasta</h5>
-        <h4>Fusilli Bolagnese</h4>
-        <h5>Ground Beef, Veal, and Pork Mix, Sauteed with Garlic, Shallots, Fresh Basil, with Marinara with a Touch of Cream with Fusilli Pasta</h5>
-        <h4>Filet Bourguignon with Tagliatelle Pasta</h4>
-        <h5>Filet Tips, with Red Wine, Shallots, Shiitake Mushrooms, with a brown Demi-glace, topped with Mascarpone Cheese over Tagliatelle Pasta</h5>
-        <h4>Linguini with White or Red Clam Sauce</h4>
-        <h5>With Fresh Clams</h5>
-        <h4>Shrimp Infernale</h4>
-        <h5>Sauteed Shrimp with Pepperoncini Peppers, Onions, Mushrooms, Garlic, and Creamy Blush Sauce, over Linguini... A Spicy Treat!</h5>
-        <h4>Lobster Mac & Cheese [MP]</h4>
-        <h5>Sauteed Lobster, with Shallots, in a Creamy Cheese Sauce and Pasta, topped with Fontine Cheese and Panko Breadcrumbs</h5>
-        <h4>32 oz. Bone-in Ribeye Steak</h4>
-        <h5>Served with Potato & Vegetable</h5>
-        <h4>Breaded/Grilled Pork Chops, Guaranteed Tender</h4>
-        <h5>Chops On the Bone (2)</h5>
-        <h5>Double Chop, Stuffed with Fontina Cheese</h5>
-        <h4>Chicken Parmigiana</h4>
-        <h4>Veal Parmigiana</h4>
-        <h4>Eggplant Parmigiana</h4>
+        <h2 class="color_change">Entrees</h2>
+        <h5 class="h5_change">Served with Soup or Salad</h5>
+        <br></br>
+        <h4 class="h4_change">Cheese Ravioli</h4>
+        <h5 class="h5_change">With marinara or Vodka Sauce</h5>
+        <br></br>
+        <h4 class="h4_change">Shrimp Scampi Pasta</h4>
+        <h5 class="h5_change">Sauteed Garlic, Lemon, White Wine, Shrimp Stock and Butter</h5>
+        <br></br>
+        <h4 class="h4_change">Shrimp & Broccoli Pasta</h4>
+        <h5 class="h5_change">Sauteed Shrimp, with Broccoli, Garlic & Oil, over Fusilli Pasta</h5>
+        <br></br>
+        <h4 class="h4_change">Fettucine Alfredo</h4>
+        <h5 class="h5_change">with Chicken/Add 5 | with Shrimp/Add 10</h5>
+        <br></br>
+        <h4 class="h4_change">Seafood Pescatore</h4>
+        <h5 class="h5_change">Sauteed Shrimp, Calamari, Clams and Mussels, in a Seafood Marinara Sauce over Linguini Pasta</h5>
+        <br></br>
+        <h4 class="h4_change">Rigatoni A La Vodka</h4>
+        <h5 class="h5_change">Rigatoni with Onions, Sage, and Prosciutto, in a Creamy Filetto Sauce with Chicken or Sausage/Add 5 | with Shrimp/Add 10</h5>
+        <br></br>
+        <h4 class="h4_change">Fusilli Misto</h4>
+        <h5 class="h5_change">Sauteed Chicken, Sundried Tomatoes, Spinach, Prosciutto, Garlic & Oil, with Fusilli Pasta</h5>
+        <br></br>
+        <h4 class="h4_change">Fusilli Bolagnese</h4>
+        <h5 class="h5_change">Ground Beef, Veal, and Pork Mix, Sauteed with Garlic, Shallots, Fresh Basil, with Marinara with a Touch of Cream with Fusilli Pasta</h5>
+        <br></br>
+        <h4 class="h4_change">Filet Bourguignon with Tagliatelle Pasta</h4>
+        <h5 class="h5_change">Filet Tips, with Red Wine, Shallots, Shiitake Mushrooms, with a brown Demi-glace, topped with Mascarpone Cheese over Tagliatelle Pasta</h5>
+        <br></br>
+        <h4 class="h4_change">Linguini with White or Red Clam Sauce</h4>
+        <h5 class="h5_change">With Fresh Clams</h5>
+        <br></br>
+        <h4 class="h4_change">Shrimp Infernale</h4>
+        <h5 class="h5_change">Sauteed Shrimp with Pepperoncini Peppers, Onions, Mushrooms, Garlic, and Creamy Blush Sauce, over Linguini... A Spicy Treat!</h5>
+        <br></br>
+        <h4 class="h4_change">Lobster Mac & Cheese [MP]</h4>
+        <h5 class="h5_change">Sauteed Lobster, with Shallots, in a Creamy Cheese Sauce and Pasta, topped with Fontine Cheese and Panko Breadcrumbs</h5>
+        <br></br>
+        <h4 class="h4_change">32 oz. Bone-in Ribeye Steak</h4>
+        <h5 class="h5_change">Served with Potato & Vegetable</h5>
+        <br></br>
+        <h4 class="h4_change">Breaded/Grilled Pork Chops, Guaranteed Tender</h4>
+        <h5 class="h5_change">Chops On the Bone (2)</h5>
+        <h5 class="h5_change">Double Chop, Stuffed with Fontina Cheese</h5>
+        <br></br>
+        <h4 class="h4_change">Chicken Parmigiana</h4>
+        <br></br>
+        <h4 class="h4_change">Veal Parmigiana</h4>
+        <br></br>
+        <h4 class="h4_change">Eggplant Parmigiana</h4>
+        <br></br>
       </div>
-      <h3>Have a craving? If we have the ingredients, we'll make it!</h3>
+      <h3 class="h4_change">Have a craving? If we have the ingredients, we'll make it!</h3>
+      <br></br>
       <div>
         <ImageGallery 
           items={images}

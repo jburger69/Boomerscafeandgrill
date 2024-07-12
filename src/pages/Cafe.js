@@ -52,15 +52,16 @@ const images = [
 
 const Cafe = () => {
     return <>
-      <h1 class="color_change">Boomers Cafe</h1>
-      <h5 class="h5_text">
-        After 2 years at his current location, Chef Joe has moved the Baby Boomers Dining Room, and the Dining Experience, to within Boomers Cafe and Grill.
-        We are transforming the space in our new dining room into the same quality experience you know and expect. Chef Joe and Chef Steve, will be
-        preparing the same dinners and special's that our customers appreciate.
-      </h5>
-      <h1 class="color_change">Cafe Menu</h1>
-      <br></br>
-      <div>
+      <div class="menu">
+        <h1 class="color_change">Boomers Cafe</h1>
+        <h5 class="h5_text">
+          After 2 years at his current location, Chef Joe has moved the Baby Boomers Dining Room, and the Dining Experience, to within Boomers Cafe and Grill.<br></br>
+          We are transforming the space in our new dining room into the same quality experience you know and expect. <br></br> Chef Joe and Chef Steve, will be
+          preparing the same dinners and special's that our customers appreciate.
+        </h5>
+        <br></br>
+        <h1 class="color_change">Cafe Menu</h1>
+        <br></br>
         <h2 class="color_change">Appetizers</h2>
         <br></br>
         <h4 class="h4_change">Stuffed Clams</h4>
@@ -76,9 +77,7 @@ const Cafe = () => {
         <h4 class="h4_change">Chicken Wings</h4>
         <h5 class="h5_change">12 Jumbo Wings, choice of Sweet, Hot, Mild, Teriyaki, Garlic Parm</h5>
         <br></br>
-      </div>
-      <hr class="line_through"></hr>
-      <div>
+        <hr class="line_through"></hr>
         <h2 class="color_change">Entrees</h2>
         <h5 class="h5_change">Served with Soup or Salad</h5>
         <br></br>
@@ -131,11 +130,10 @@ const Cafe = () => {
         <br></br>
         <h4 class="h4_change">Eggplant Parmigiana</h4>
         <br></br>
+        <h3 class="h4_change">Have a craving? If we have the ingredients, we'll make it!</h3>
       </div>
-      <hr class="line_through"></hr>
-      <h3 class="h4_change">Have a craving? If we have the ingredients, we'll make it!</h3>
       <br></br>
-      <div>
+      <div class="image_gallery">
         <ImageGallery 
           items={images}
           original={true}

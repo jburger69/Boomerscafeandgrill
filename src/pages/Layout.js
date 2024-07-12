@@ -7,7 +7,7 @@ import '../layout.css';
 const Layout = () => {
   return (
     <>
-      <Navbar bg="light" data-bs-theme="light">
+      <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>

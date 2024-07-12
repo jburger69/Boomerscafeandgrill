@@ -15,3 +15,19 @@
 .h5_text {
     text-align: center;
 }
+
+.line_through {
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(226, 226, 226);
+    margin-top: 8px;
+    width: 100%;
+    box-sizing: content-box;
+    display: block;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    unicode-bidi: isolate;
+    overflow: hidden;
+}

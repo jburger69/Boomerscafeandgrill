@@ -77,6 +77,7 @@ const Cafe = () => {
         <h5 class="h5_change">12 Jumbo Wings, choice of Sweet, Hot, Mild, Teriyaki, Garlic Parm</h5>
         <br></br>
       </div>
+      <hr class="line_through"></hr>
       <div>
         <h2 class="color_change">Entrees</h2>
         <h5 class="h5_change">Served with Soup or Salad</h5>
@@ -131,6 +132,7 @@ const Cafe = () => {
         <h4 class="h4_change">Eggplant Parmigiana</h4>
         <br></br>
       </div>
+      <hr class="line_through"></hr>
       <h3 class="h4_change">Have a craving? If we have the ingredients, we'll make it!</h3>
       <br></br>
       <div>

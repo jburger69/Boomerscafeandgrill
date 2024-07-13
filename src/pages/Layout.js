@@ -18,9 +18,6 @@ const Layout = () => {
         </Container>
       </Navbar>
       <Outlet />
-      <div className="footer">
-        © 2024 Copyright: Boomers Cafe & Grill
-      </div>
     </>
   )
 };

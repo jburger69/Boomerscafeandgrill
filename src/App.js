@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import Grill from "./pages/Grill";
 import Cafe from "./pages/Cafe";
 import Catering from "./pages/Catering";
+import Footer from "../src/Components/Footer";
+import "./App.css"
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

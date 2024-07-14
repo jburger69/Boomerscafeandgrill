@@ -2,7 +2,7 @@ import ImageGallery from "react-image-gallery";
 import Image from "../images/image000000.JPG";
 import Image_two from "../images/cr=w_600,h_300.webp";
 import Image_three from "../images/rs=w_600,h_300,cg_true.webp";
-import Image_four from "../images/rs=w_1240,h_620,cg_true.webp";
+import Image_four from "../images/360_F_259311106_Gw1RR6YMiV1Ev3sYAe0eDYPkz697pKYv.jpg";
 import Image_five from "../images/image000000 2.jpg";
 import Image_six from "../images/image000000 3.jpg";
 import Image_seven from "../images/image000000 copy.jpg";
@@ -49,7 +49,7 @@ const Home = () => {
         </Row>
       </Container>
     </div>
-    <h1>About Boomers Cafe & Grill</h1>
+    <h1 className="h1_home">About Boomers Cafe & Grill</h1>
     <div>
       <Container>
         <Row>
@@ -81,7 +81,7 @@ const Home = () => {
       <p>Coors Light, Miller Lite, and Yuengling for $3 Tito's or Malibu Mixed Drinks $4</p>
       <p>15% off all Burgers</p>
     </div>
-    <h1>Boomers Grill Gallery</h1>
+    <h1 className="h1_home">Boomers Grill Gallery</h1>
     <ImageGallery 
       items={images}
       original={true}
@@ -90,10 +90,7 @@ const Home = () => {
       showPlayButton={false}
       />;
       <div className="contact_div">
-        <h1>Contact US</h1>
-      </div>
-      <div>
-        <h1>Social</h1>
+        <h1 className="h1_home">Contact US</h1>
       </div>
     </>
   };

@@ -50,7 +50,7 @@ const Home = () => {
       </Container>
     </div>
     <h1 className="h1_home">About Boomers Cafe & Grill</h1>
-    <div>
+    <div className="about_div">
       <Container>
         <Row>
           <Col><img src={Image_two} className="image" alt="Boomers image" /></Col>
@@ -61,25 +61,28 @@ const Home = () => {
     <div>
       <Container>
         <Row>
-          <Col><h3>Our vision</h3></Col>
-          <Col><h3>Our Chef</h3></Col>
+          <Col><h3 className="about_name">Our vision</h3></Col>
+          <Col><h3 className="about_name">Our Chef</h3></Col>
         </Row>
       </Container>
     </div>
-    <div>
+    <div className="about_text">
       <Container>
         <Row>
           <Col><p>Our goal is to provide a welcoming and inclusive space for everyone to enjoy delicious food and drinks.
-            We believe in using fresh, locally-sourced ingredients and supporting our community in every way we can. Stop by and enjoy live music Thursday, Friday and Saturday.</p></Col>
+            We believe in using fresh, locally-sourced ingredients and supporting our community in every way we can.</p></Col>
           <Col><p>Chef Joe of Baby Boomers Cafe has years of experience in the restaurant industry and a passion for creating unique and flavorful dishes. He puts his heart and soul into every meal he prepares, and it shows in the rave reviews from our customers.</p></Col>
         </Row>
       </Container>
     </div>
     <div className="happy_div">
       <img className="happy_hour_image" src={Image_four} />
-      <p>Stop by Boomers Roadhouse and Cafe between 4pm and 6pm for our happy hour specials. Enjoy discounted drinks and burgers and catch up with friends over a cold beer or cocktail.</p>
-      <p>Coors Light, Miller Lite, and Yuengling for $3 Tito's or Malibu Mixed Drinks $4</p>
-      <p>15% off all Burgers</p>
+      <div className="happy_hour_text">
+        <h1 className="h1_home">Happy Hour</h1>
+        <h4>Stop by Boomers Cafe & Grill between 4pm and 6pm for our happy hour specials.<br></br> Enjoy discounted drinks and burgers and catch up with friends over a cold beer or cocktail.</h4>
+        <h4>Coors Light, Miller Lite, and Yuengling for $3 Tito's or Malibu Mixed Drinks $4</h4>
+        <h4>15% off all Burgers</h4>
+      </div>
     </div>
     <h1 className="h1_home">Boomers Grill Gallery</h1>
     <ImageGallery 
@@ -108,12 +111,12 @@ const Home = () => {
               <div className="contact_text">
                 <h2>Hours</h2>
                 <h4>Monday - Closed</h4>
-                <h4>Tuesday - 12:00 pm - 9:00 pm</h4>
+                <h4>Tuesday - 12:00 pm - 8:00 pm</h4>
                 <h4>Wensday - 12:00 pm - 10:00 pm</h4>
                 <h4>Thursday - 12:00 pm - 10:00 pm</h4>
                 <h4>Friday - 12:00 pm - 10:00 pm</h4>
                 <h4>Saturday - 12:00 pm - 10:00 pm</h4>
-                <h4>Sunday(Brunch) - 9:00 am - 3:00 pm</h4>
+                <h4>Sunday(Brunch) - 8:00 am - 3:00 pm</h4>
               </div>
             </Col>
           </Row>

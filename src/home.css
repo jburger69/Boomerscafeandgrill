@@ -35,7 +35,7 @@
 }
 
 .happy_div {
-    background: #606060;
+    background: rgb(246, 246, 246);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -43,10 +43,15 @@
 
 .happy_hour_image {
     margin-top: 50px;
-    width: 75%;
+    width: 50%;
     height: auto;
 }
 
 .contact_div {
-    background: #606060;
+    background: rgb(246, 246, 246);
+}
+
+.h1_home {
+    color: #DF9228;
+    text-align: center;
 }

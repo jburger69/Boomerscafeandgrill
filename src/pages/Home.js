@@ -91,25 +91,33 @@ const Home = () => {
       />;
       <div className="contact_div">
         <h1 className="h1_home">Contact US</h1>
-        <div>
-          <div>
-            <h2>Don't Just Read About Us</h2>
-            <h4>Get on down and see why our grill and cafe is where you chill!</h4>
-            <h2>Boomers Cafe and Grill</h2>
-            <h4>2624 PA-534 Albrightsville PA 18210</h4>
-            <h4>570-215-7091</h4>
-          </div>
-          <div>
-            <h2>Hours</h2>
-            <h4>Monday - Closed</h4>
-            <h4>Tuesday - 12:00 pm - 9:00 pm</h4>
-            <h4>Wensday - 12:00 pm - 10:00 pm</h4>
-            <h4>Thursday - 12:00 pm - 10:00 pm</h4>
-            <h4>Friday - 12:00 pm - 10:00 pm</h4>
-            <h4>Saturday - 12:00 pm - 10:00 pm</h4>
-            <h4>Sunday(Brunch) - 9:00 am - 3:00 pm</h4>
-          </div>
-        </div>
+        <Container>
+          <Row>
+            <Col>
+              <div className="contact_text">
+                <h2>Don't Just Read About Us</h2>
+                <h4>Get on down and see why our cafe and grill is where you chill!</h4>
+                <br></br>
+                <br></br>
+                <h2>Boomers Cafe and Grill</h2>
+                <h4>2624 PA-534 Albrightsville PA 18210</h4>
+                <h4>570-215-7091</h4>
+              </div>
+            </Col>
+            <Col>
+              <div className="contact_text">
+                <h2>Hours</h2>
+                <h4>Monday - Closed</h4>
+                <h4>Tuesday - 12:00 pm - 9:00 pm</h4>
+                <h4>Wensday - 12:00 pm - 10:00 pm</h4>
+                <h4>Thursday - 12:00 pm - 10:00 pm</h4>
+                <h4>Friday - 12:00 pm - 10:00 pm</h4>
+                <h4>Saturday - 12:00 pm - 10:00 pm</h4>
+                <h4>Sunday(Brunch) - 9:00 am - 3:00 pm</h4>
+              </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </>
   };

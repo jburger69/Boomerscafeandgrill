@@ -17,8 +17,25 @@
     height: auto;
 }
 
+.about_div {
+    
+}
+
+.about_text {
+    margin-bottom: 50px;
+    font-family: "PT Serif", serif;
+}
+
+.about_name {
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
 .main_text {
     color: white;
+    font-family: 'Righteous', serif, system-ui;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -47,18 +64,25 @@
     height: auto;
 }
 
+.happy_hour_text {
+    font-family: "PT Serif", serif;
+    margin: 50px;
+}
+
 .contact_div {
     background: rgb(246, 246, 246);
     margin-top: 50px;
 }
 
 .h1_home {
+    font-family: 'Righteous', serif, system-ui;
     color: #DF9228;
     text-align: center;
     margin: 50px;
 }
 
 .contact_text {
+    font-family: "PT Serif", serif;
     position: relative;
     top: 50%;
     transform: translateY(-50%);

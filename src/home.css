@@ -1,6 +1,6 @@
 .main_div {
     display: flex;
-    padding: 75px;
+    padding: 100px;
     background-color: black;
     height: 100%;
 }
@@ -14,7 +14,7 @@
 
 .image {
     width: 100%;
-    height: auto;
+    height: auto;  /* auto for image   */
 }
 
 .about_div {
@@ -36,10 +36,30 @@
 .main_text {
     color: white;
     font-family: 'Righteous', serif, system-ui;
+    /* font-family: "PT Serif", serif; */
     position: relative;
-    top: 50%;
+    /* top: 50%;
     transform: translateY(-50%);
-    margin-left: 50px;
+    margin-left: 50px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 30%;
+    margin-bottom: 60px;
+}
+
+.main_button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    top: 35%;
+    transform: translateY(-50%);
+    margin-left: 35px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #DF9228;
+    color: white;
 }
 
 #h5 {
@@ -88,4 +108,23 @@
     transform: translateY(-50%);
     margin-left: 50px;
     margin-bottom: 150px;
+}
+
+.follow_us_link {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    /* width: 50px; */
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
 }

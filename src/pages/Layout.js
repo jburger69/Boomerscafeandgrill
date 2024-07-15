@@ -7,8 +7,9 @@ import '../layout.css';
 const Layout = () => {
   return (
     <>
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar sticky="top" bg="dark" data-bs-theme="dark">
         <Container>
+          <Navbar.Brand href="/">Boomers Cafe & Grill</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="Grill">Grill</Nav.Link>

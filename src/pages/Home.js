@@ -1,5 +1,7 @@
 import ImageGallery from "react-image-gallery";
-import Image from "../images/image000000.JPG";
+// import Image from "../images/image000000.JPG";
+// import Image_1 from "../images/IMG_1178.PNG";
+import Image_2 from "../images/rsz_1img_1178.png";
 import Image_two from "../images/cr=w_600,h_300.webp";
 import Image_three from "../images/rs=w_600,h_300,cg_true.webp";
 import Image_four from "../images/360_F_259311106_Gw1RR6YMiV1Ev3sYAe0eDYPkz697pKYv.jpg";
@@ -7,6 +9,10 @@ import Image_five from "../images/image000000 2.jpg";
 import Image_six from "../images/image000000 3.jpg";
 import Image_seven from "../images/image000000 copy.jpg";
 import Image_eight from "../images/441331488_10230280905915525_6622483226008671594_n.jpg";
+import Image_nine from "../images/IMG_1171.JPG";
+import Image_ten from "../images/IMG_1172.JPG";
+import Image_eleven from "../images/IMG_1173.JPG";
+import Image_twelve from "../images/IMG_1174.JPG";
 
 
 import Container from 'react-bootstrap/Container';
@@ -32,6 +38,22 @@ const images = [
     original: Image_eight,
     thumbnail: Image_eight,
   },
+  {
+    original: Image_nine,
+    thumbnail: Image_nine,
+  },
+  {
+    original: Image_ten,
+    thumbnail: Image_ten,
+  },
+  {
+    original: Image_eleven,
+    thumbnail: Image_eleven,
+  },
+  {
+    original: Image_twelve,
+    thumbnail: Image_twelve,
+  },
   
 ];
 
@@ -41,10 +63,10 @@ const Home = () => {
     <div className="main_div">
       <Container>
         <Row>
-         <Col sm={8}><img className="image" src={Image} alt="Boomers Cafe & Grill Logo"/></Col>
+         <Col sm={8}><img className="image" src={Image_2} alt="Boomers Cafe & Grill Logo"/></Col>
          <Col sm={4}><h2 className="main_text">Welcome to Boomers Cafe & Grill</h2>
-         <h5 id="h5" className="main_text">Relax and indulge in our delicious drinks and appetizers at Boomers Cafe & Grill.</h5>
-         <Button onclick="location.href = https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" id="button"className="main_text" variant="warning">Click to Follow US</Button>
+         <h5 id="h5" className="main_text">Relax and indulge in our delicious drinks, food and appetizers at Boomers Cafe & Grill. We have two sides combined in one space! Try out our cafe or our grill. Both will melt your tastebuds!</h5>
+         {/* <Button onclick="location.href = https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F" id="button"className="main_button" variant="warning">Follow US</Button> */}
          </Col>
         </Row>
       </Container>
@@ -121,6 +143,10 @@ const Home = () => {
             </Col>
           </Row>
         </Container>
+      </div>
+      <div className="follow_us_link">
+        <h1 className="h1_home">Follow Us to keep up to date with menus, drinks, and events!</h1>
+        <a href="https://www.facebook.com/profile.php?id=61562298807419" class="fa fa-facebook"></a>
       </div>
     </>
   };

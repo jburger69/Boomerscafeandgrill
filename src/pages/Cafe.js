@@ -74,9 +74,6 @@ const Cafe = () => {
         <br></br>
         <h4 class="h4_change">Friend Calamari</h4>
         <br></br>
-        <h4 class="h4_change">Chicken Wings</h4>
-        <h5 class="h5_change">12 Jumbo Wings, choice of Sweet, Hot, Mild, Teriyaki, Garlic Parm</h5>
-        <br></br>
         <hr class="line_through"></hr>
         <h2 class="color_change">Entrees</h2>
         <h5 class="h5_change">Served with Soup or Salad</h5>

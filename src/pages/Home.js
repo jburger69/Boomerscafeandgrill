@@ -13,6 +13,9 @@ import Image_nine from "../images/IMG_1171.JPG";
 import Image_ten from "../images/IMG_1172.JPG";
 import Image_eleven from "../images/IMG_1173.JPG";
 import Image_twelve from "../images/IMG_1174.JPG";
+import Image_event from "../images/IMG_1192.PNG";
+import Image_event_two from "../images/IMG_1142.png";
+import Image_event_three from "../images/IMG_3259 2.png";
 
 
 import Container from 'react-bootstrap/Container';
@@ -56,6 +59,21 @@ const images = [
   },
   
 ];
+
+const images_two = [
+  {
+    original: Image_event_two,
+    thumbnail: Image_event_two,
+  },
+  {
+    original: Image_event,
+    thumbnail: Image_event,
+  },
+  {
+    original: Image_event_three,
+    thumbnail: Image_event_three,
+  }
+]
 
 
 const Home = () => {
@@ -101,8 +119,8 @@ const Home = () => {
       <img className="happy_hour_image" src={Image_four} />
       <div className="happy_hour_text">
         <h1 className="h1_home">Happy Hour</h1>
-        <h4>Stop by Boomers Cafe & Grill between 4pm and 6pm for our happy hour specials.<br></br> Enjoy discounted drinks and burgers and catch up with friends over a cold beer or cocktail.</h4>
-        <h4>Coors Light, Miller Lite, and Yuengling for $3 Tito's or Malibu Mixed Drinks $4</h4>
+        <h4>Stop by Boomers Cafe & Grill Tuesday - Saturday between 4pm and 6pm for our happy hour specials.<br></br> Enjoy discounted drinks and burgers and catch up with friends over a cold beer or cocktail.</h4>
+        <h4>$3 Draft's Budlight, Budweiser, and Yuengling. $3 Tito's, Malibu Mixed Drinks, and Pinnacle Vodka.</h4>
         <h4>15% off all Burgers</h4>
       </div>
     </div>
@@ -146,7 +164,17 @@ const Home = () => {
       </div>
       <div className="follow_us_link">
         <h1 className="h1_home">Follow Us to keep up to date with menus, drinks, and events!</h1>
-        <a href="https://www.facebook.com/profile.php?id=61562298807419" class="fa fa-facebook"></a>
+        <h2 className="h1_home">Follow Below by clicking link:</h2><a href="https://www.facebook.com/profile.php?id=61562298807419" class="fa fa-facebook"></a>
+      </div>
+      <div className="event_div">
+        <h1 className="h1_home">Our Upcoming Event You dont want to Miss: Turtle Survival Alliance</h1>
+        <ImageGallery 
+          items={images_two}
+          original={true}
+          showIndex={true}
+          showFullscreenButton={true}
+          showPlayButton={false}
+        />;
       </div>
     </>
   };

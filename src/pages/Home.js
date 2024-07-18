@@ -119,7 +119,7 @@ const Home = () => {
       <div className="happy_hour_text">
         <h1 className="h1_home">Happy Hour</h1>
         <h4>Stop by Boomers Cafe & Grill Tuesday - Saturday between 4pm and 6pm for our happy hour specials.<br></br> Enjoy discounted drinks and burgers and catch up with friends over a cold beer or cocktail.</h4>
-        <h4>$3 Draft's Budlight, Budweiser, and Yuengling. $3 Tito's, Malibu Mixed Drinks, and Pinnacle Vodka.</h4>
+        <h4>$5 bottles Budlight, Budweiser $3 Draft's Yuengling. $4 Tito's, Malibu Mixed Drinks, and Pinnacle Vodka.</h4>
         <h4>15% off all Burgers</h4>
       </div>
     </div>

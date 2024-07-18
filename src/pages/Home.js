@@ -21,7 +21,6 @@ import Image_event_three from "../images/IMG_3259 2.png";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col'
-import Button from 'react-bootstrap/Button';
 import "../home.css";
 
 const images = [

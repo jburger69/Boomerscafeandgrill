@@ -163,7 +163,7 @@ const Home = () => {
       </div>
       <div className="follow_us_link">
         <h1 className="h1_home">Follow Us to keep up to date with menus, drinks, and events!</h1>
-        <h2 className="h1_home">Follow Below by clicking link:</h2><a href="https://www.facebook.com/profile.php?id=61562298807419" class="fa fa-facebook"></a>
+        <h2 className="h1_home">Follow Below by clicking link:</h2><a href="https://www.facebook.com/profile.php?id=61562298807419" class="fa fa-facebook" aria-label="Facebook"></a>
       </div>
       <div className="event_div">
         <h1 className="h1_home">Our Upcoming Event You dont want to Miss: Turtle Survival Alliance</h1>

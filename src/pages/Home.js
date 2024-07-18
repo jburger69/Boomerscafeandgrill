@@ -93,8 +93,8 @@ const Home = () => {
     <div className="about_div">
       <Container>
         <Row>
-          <Col><img src={Image_two} className="image" alt="Boomers image" /></Col>
-          <Col><img src={Image_three} className="image" alt="Boomers image" /></Col>
+          <Col><img src={Image_two} className="image" alt="Boomers" /></Col>
+          <Col><img src={Image_three} className="image" alt="Boomers" /></Col>
         </Row>
       </Container>
     </div>
@@ -116,7 +116,7 @@ const Home = () => {
       </Container>
     </div>
     <div className="happy_div">
-      <img className="happy_hour_image" src={Image_four} />
+      <img className="happy_hour_image" src={Image_four} alt="happy hour" />
       <div className="happy_hour_text">
         <h1 className="h1_home">Happy Hour</h1>
         <h4>Stop by Boomers Cafe & Grill Tuesday - Saturday between 4pm and 6pm for our happy hour specials.<br></br> Enjoy discounted drinks and burgers and catch up with friends over a cold beer or cocktail.</h4>

@@ -16,6 +16,10 @@ import Image_twelve from "../images/IMG_1174.JPG";
 import Image_event from "../images/IMG_1192.PNG";
 import Image_event_two from "../images/IMG_1142.png";
 import Image_event_three from "../images/IMG_3259 2.png";
+import Image_event_four from "../images/IMG_1269.jpg";
+import Image_event_five from "../images/IMG_1267.jpg";
+import Image_event_six from "../images/IMG_1263.jpg";
+
 
 
 import Container from 'react-bootstrap/Container';
@@ -71,6 +75,18 @@ const images_two = [
   {
     original: Image_event_three,
     thumbnail: Image_event_three,
+  },
+  {
+    original: Image_event_four,
+    thumbnail: Image_event_four,
+  },
+  {
+    original: Image_event_five,
+    thumbnail: Image_event_five,
+  },
+  {
+    original: Image_event_six,
+    thumbnail: Image_event_six,
   }
 ]
 

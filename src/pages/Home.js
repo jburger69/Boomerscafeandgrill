@@ -13,12 +13,7 @@ import Image_nine from "../images/IMG_1171.JPG";
 import Image_ten from "../images/IMG_1172.JPG";
 import Image_eleven from "../images/IMG_1173.JPG";
 import Image_twelve from "../images/IMG_1174.JPG";
-import Image_event from "../images/IMG_1192.PNG";
-import Image_event_two from "../images/IMG_1142.png";
-import Image_event_three from "../images/IMG_3259 2.png";
-import Image_event_four from "../images/IMG_1269.jpg";
-import Image_event_five from "../images/IMG_1267.jpg";
-import Image_event_six from "../images/IMG_1263.jpg";
+import Image_event from "../images/IMG_1283.jpg";
 
 
 
@@ -65,28 +60,8 @@ const images = [
 
 const images_two = [
   {
-    original: Image_event_two,
-    thumbnail: Image_event_two,
-  },
-  {
     original: Image_event,
     thumbnail: Image_event,
-  },
-  {
-    original: Image_event_three,
-    thumbnail: Image_event_three,
-  },
-  {
-    original: Image_event_four,
-    thumbnail: Image_event_four,
-  },
-  {
-    original: Image_event_five,
-    thumbnail: Image_event_five,
-  },
-  {
-    original: Image_event_six,
-    thumbnail: Image_event_six,
   }
 ]
 
@@ -135,7 +110,10 @@ const Home = () => {
       <div className="happy_hour_text">
         <h1 className="h1_home">Happy Hour</h1>
         <h4>Stop by Boomers Cafe & Grill Tuesday - Saturday between 4pm and 6pm for our happy hour specials.<br></br> Enjoy discounted drinks and burgers and catch up with friends over a cold beer or cocktail.</h4>
-        <h4>$5 bottles Budlight, Budweiser $3 Draft's Yuengling. $4 Tito's, Malibu Mixed Drinks, and Pinnacle Vodka.</h4>
+        <br></br>
+        <h4>$5 bottles Budlight, Budweiser</h4>
+        <h4>$3 Draft's Yuengling</h4>
+        <h4>$4 Tito's, Malibu Mixed Drinks, and Pinnacle Vodka</h4>
         <h4>15% off all Burgers</h4>
       </div>
     </div>
@@ -182,7 +160,9 @@ const Home = () => {
         <h2 className="h1_home">Follow Below by clicking link:</h2><a href="https://www.facebook.com/profile.php?id=61562298807419" class="fa fa-facebook" aria-label="Facebook"></a>
       </div>
       <div className="event_div">
-        <h1 className="h1_home">Our Upcoming Event You dont want to Miss: Turtle Survival Alliance</h1>
+        <h1 className="h1_home">Our Upcoming Event You dont want to Miss: Tuesday Ladies Night</h1>
+        <h2 className="h1_home">August 13th</h2>
+        <h2 className="h1_home">8:00 P.M - 12:00 P.M</h2>
         <ImageGallery 
           items={images_two}
           original={true}

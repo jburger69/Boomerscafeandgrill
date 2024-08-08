@@ -14,6 +14,7 @@ import Image_ten from "../images/IMG_1172.JPG";
 import Image_eleven from "../images/IMG_1173.JPG";
 import Image_twelve from "../images/IMG_1174.JPG";
 import Image_event from "../images/IMG_1283.jpg";
+import Image_event_two from "../images/carshow.JPG";
 
 
 
@@ -62,6 +63,10 @@ const images_two = [
   {
     original: Image_event,
     thumbnail: Image_event,
+  },
+  {
+    original: Image_event_two,
+    thumbnail: Image_event_two,
   }
 ]
 
@@ -163,6 +168,10 @@ const Home = () => {
         <h1 className="h1_home">Our Upcoming Event You dont want to Miss: Tuesday Ladies Night</h1>
         <h2 className="h1_home">August 13th</h2>
         <h2 className="h1_home">8:00 P.M - 12:00 P.M</h2>
+        <hr class="line_through"></hr>
+        <h1 className="h1_home">Our Upcoming Event You dont want to Miss: Car Show Hosted by Pharaohs of Effort</h1>
+        <h2 className="h1_home">September 22nd</h2>
+        <h2 className="h1_home">9:00 A.M - 4:00 P.M</h2>
         <ImageGallery 
           items={images_two}
           original={true}

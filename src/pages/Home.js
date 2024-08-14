@@ -13,7 +13,7 @@ import Image_nine from "../images/IMG_1171.JPG";
 import Image_ten from "../images/IMG_1172.JPG";
 import Image_eleven from "../images/IMG_1173.JPG";
 import Image_twelve from "../images/IMG_1174.JPG";
-import Image_event from "../images/IMG_1283.jpg";
+// import Image_event from "../images/IMG_1283.jpg";
 import Image_event_two from "../images/carshow.JPG";
 
 

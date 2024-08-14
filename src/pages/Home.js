@@ -61,10 +61,6 @@ const images = [
 
 const images_two = [
   {
-    original: Image_event,
-    thumbnail: Image_event,
-  },
-  {
     original: Image_event_two,
     thumbnail: Image_event_two,
   }
@@ -149,12 +145,17 @@ const Home = () => {
               <div className="contact_text">
                 <h2>Hours</h2>
                 <h4>Monday - Closed</h4>
-                <h4>Tuesday - 12:00 pm - 8:00 pm</h4>
-                <h4>Wensday - 12:00 pm - 10:00 pm</h4>
-                <h4>Thursday - 12:00 pm - 10:00 pm</h4>
-                <h4>Friday - 12:00 pm - 10:00 pm</h4>
-                <h4>Saturday - 12:00 pm - 10:00 pm</h4>
-                <h4>Sunday(Brunch) - 8:00 am - 3:00 pm</h4>
+                <h4>Tuesday - Closed</h4>
+                <h4>Wensday - 4:00 pm - 10:00 pm</h4>
+                <h4>Thursday - 4:00 pm - 10:00 pm</h4>
+                <h4>Friday - 4:00 pm - 10:00 pm</h4>
+                <h4>Saturday - 3:00 pm - 10:00 pm</h4>
+                <h4>Sunday(Brunch) - 8:00 am - 2:00 pm</h4>
+                <br></br>
+                <h2>Through Football Season Starting September Bar Menu + Brunch</h2>
+                <br></br>
+                <h4>Sunday(Brunch) - 8:00 am - 2:00 pm</h4>
+                <h4>Sunday - 1:00 pm - 8:00 pm</h4>
               </div>
             </Col>
           </Row>
@@ -165,10 +166,6 @@ const Home = () => {
         <h2 className="h1_home">Follow Below by clicking link:</h2><a href="https://www.facebook.com/profile.php?id=61562298807419" class="fa fa-facebook" aria-label="Facebook"></a>
       </div>
       <div className="event_div">
-        <h1 className="h1_home">Our Upcoming Event You dont want to Miss: Tuesday Ladies Night</h1>
-        <h2 className="h1_home">August 13th</h2>
-        <h2 className="h1_home">8:00 P.M - 12:00 P.M</h2>
-        <hr class="line_through"></hr>
         <h1 className="h1_home">Our Upcoming Event You dont want to Miss: Car Show Hosted by Pharaohs of Effort</h1>
         <h2 className="h1_home">September 22nd</h2>
         <h2 className="h1_home">9:00 A.M - 4:00 P.M</h2>

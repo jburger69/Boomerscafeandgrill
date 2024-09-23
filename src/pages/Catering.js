@@ -37,7 +37,18 @@ const images = [
 
 const Catering = () => {
     return <>
-      <h1 class="catering">Catering Comming Fall 2024!</h1>
+      <h1 class="catering">Boomers Grill & Cafe now has Catering!</h1>
+      <h2 className="h4_change">Full Banquet Menu Available</h2>
+      <br></br>
+      <h2 className="h4_change">Book Your Holiday Party Today</h2>
+      <br></br>
+      <h3 className="h5_change">Halloween Party</h3>
+      <h3 className="h5_change">Thanksgiving Party</h3>
+      <h3 className="h5_change">Christmas Party</h3>
+      <h3 className="h5_change">Birthday Party</h3>
+      <br></br>
+      <h2 className="h4_change">We also do wedding's for parties of 75 or less</h2>
+      <br></br>
       <ImageGallery 
       items={images}
       original={true}

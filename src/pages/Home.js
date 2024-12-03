@@ -98,7 +98,7 @@ const Home = () => {
         </Row>
       </Container>
     </div>
-    <div className="happy_div">
+    {/* <div className="happy_div">
       <img className="happy_hour_image" src={Image_four} alt="happy hour" />
       <div className="happy_hour_text">
         <h1 className="h1_home">Happy Hour</h1>
@@ -109,7 +109,7 @@ const Home = () => {
         <h4>$4 Tito's, Malibu Mixed Drinks, and Pinnacle Vodka</h4>
         <h4>15% off all Burgers</h4>
       </div>
-    </div>
+    </div> */}
     <h1 className="h1_home">Boomers Grill Gallery</h1>
     <ImageGallery 
       items={images}
@@ -138,11 +138,11 @@ const Home = () => {
                 <h2>Hours</h2>
                 <h4>Monday - Closed</h4>
                 <h4>Tuesday - Closed</h4>
-                <h4>Wensday - 4:00 pm - 10:00 pm</h4>
-                <h4>Thursday - 4:00 pm - 10:00 pm</h4>
-                <h4>Friday - 4:00 pm - 10:00 pm</h4>
-                <h4>Saturday - 3:00 pm - 10:00 pm</h4>
-                <h4>Sunday(Brunch) - 8:00 am - 1:00 pm</h4>
+                <h4>Wensday - 3:00 pm - 9:00 pm</h4>
+                <h4>Thursday - 3:00 pm - 9:00 pm</h4>
+                <h4>Friday - 3:00 pm - 9:00 pm</h4>
+                <h4>Saturday - 3:00 pm - 9:00 pm</h4>
+                <h4>Sunday(Brunch) - 8:00 am - 2:00 pm</h4>
                 <br></br>
               </div>
             </Col>

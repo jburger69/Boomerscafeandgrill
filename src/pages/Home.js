@@ -4,7 +4,7 @@ import ImageGallery from "react-image-gallery";
 import Image_2 from "../images/rsz_1img_1178.png";
 import Image_two from "../images/cr=w_600,h_300.webp";
 import Image_three from "../images/rs=w_600,h_300,cg_true.webp";
-import Image_four from "../images/360_F_259311106_Gw1RR6YMiV1Ev3sYAe0eDYPkz697pKYv.jpg";
+// import Image_four from "../images/360_F_259311106_Gw1RR6YMiV1Ev3sYAe0eDYPkz697pKYv.jpg";
 import Image_five from "../images/image000000 2.jpg";
 import Image_six from "../images/image000000 3.jpg";
 import Image_seven from "../images/image000000 copy.jpg";

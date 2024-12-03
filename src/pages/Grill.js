@@ -35,7 +35,7 @@ const Grill = () => {
       <br></br>
       <hr class="line_through"></hr>
       <br></br>
-      <h2 class="color_change">Main's</h2>
+      {/* <h2 class="color_change">Main's</h2>
       <br></br>
       <h3 class="color_change">Sandwiches</h3>
       <br></br>
@@ -66,7 +66,7 @@ const Grill = () => {
       <h4 class="h4_change">The Balboa</h4>
       <h5 class="h5_change">Hot Italian Sausage, Hot Pepper, Onions, on a Hoagie Roll</h5>
       <br></br>
-      <hr class="line_through"></hr>
+      <hr class="line_through"></hr> */}
       <br></br>
       <h3 class="color_change">Salads</h3>
       <br></br>
@@ -79,9 +79,9 @@ const Grill = () => {
       <h4 class="h4_change">Caesar Salad</h4>
       <h5 class="h5_change">add Chicken / add Shrimp</h5>
       <br></br>
-      <hr class="line_through"></hr>
-      <br></br>
-      <h3 class="color_change">Burgers</h3>
+      {/* <hr class="line_through"></hr>
+      <br></br> */}
+      {/* <h3 class="color_change">Burgers</h3>
       <br></br>
       <h4 class="h4_change">The Lenny & Squiggy</h4>
       <h5 class="h5_change">8oz. burger with Cheese, topped with Creamy Cole Slaw on a Hard Roll</h5>
@@ -100,7 +100,7 @@ const Grill = () => {
       <br></br>
       <h4 class="h4_change">Fried Flintstone Burger</h4>
       <h5 class="h5_change">16oz. burger with Sauteed Onions, Cheese, Lettuce & Tomato on a Hard Roll</h5>
-      <br></br>
+      <br></br> */}
       </div>
     </>
   };

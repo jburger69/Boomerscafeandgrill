@@ -185,7 +185,7 @@ const Home = () => {
       </div>
       <div className="event_div">
         <h1 className="h1_home">Our Upcoming Event You dont want to Miss: </h1>
-        <h2 className="h1_home">Valentine's Day Special</h2>
+        <h2 className="h1_home">Valentine's Day Special - Call to make reservations</h2>
         <ImageGallery 
           items={Event_images}
           original={true}

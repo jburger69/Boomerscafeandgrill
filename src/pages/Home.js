@@ -127,18 +127,19 @@ const Home = () => {
         </Row>
       </Container>
     </div>
-    {/* <div className="happy_div">
-      <img className="happy_hour_image" src={Image_four} alt="happy hour" />
+    <div className="happy_div">
       <div className="happy_hour_text">
-        <h1 className="h1_home">Happy Hour</h1>
-        <h4>Stop by Boomers Cafe & Grill Tuesday - Saturday between 4pm and 6pm for our happy hour specials.<br></br> Enjoy discounted drinks and burgers and catch up with friends over a cold beer or cocktail.</h4>
+        <h1 className="h1_home">Our Special's</h1>
+        <h4>Stop by Boomers Cafe & Grill Thursday for our special!</h4>
         <br></br>
-        <h4>$5 bottles Budlight, Budweiser</h4>
-        <h4>$3 Draft's Yuengling</h4>
-        <h4>$4 Tito's, Malibu Mixed Drinks, and Pinnacle Vodka</h4>
-        <h4>15% off all Burgers</h4>
+        <h4>$20 Thursday's</h4>
+        <h4>Roast Chicken - Eggplant Parm</h4>
+        <h4>Chicken Parm - Pasta with Sausage Meatball</h4>
+        <h4>Baked Filet Sole Potatoes & Veggies</h4>
+        <h4>All Night Soup - Salad - Dessert</h4>
+        <img className="happy_hour_image" src={Image_fourteen} alt="happy hour" />
       </div>
-    </div> */}
+    </div>
     <h1 className="h1_home">Boomers Grill Gallery</h1>
     <ImageGallery 
       items={images}

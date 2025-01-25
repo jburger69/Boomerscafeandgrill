@@ -15,6 +15,10 @@ import Image_eleven from "../images/IMG_1173.JPG";
 import Image_twelve from "../images/IMG_1174.JPG";
 // import Image_event from "../images/IMG_1283.jpg";
 import Image_thirteen from "../images/IMG_1981.jpg";
+import Image_fourteen from "../images/IMG_1982.jpg";
+import Image_fifteen from "../images/IMG_1983_2.jpg";
+import Image_sixteen from "../images/IMG_1984_2.jpg";
+import Image_seventeen from "../images/IMG_1985_2.jpg";
 
 
 
@@ -55,6 +59,22 @@ const images = [
   {
     original: Image_twelve,
     thumbnail: Image_twelve,
+  },
+  {
+    original: Image_fourteen,
+    thumbnail: Image_fourteen,
+  },
+  {
+    original: Image_fifteen,
+    thumbnail: Image_fifteen,
+  },
+  {
+    original: Image_sixteen,
+    thumbnail: Image_sixteen,
+  },
+  {
+    original: Image_seventeen,
+    thumbnail: Image_seventeen,
   },
   
 ];

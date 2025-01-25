@@ -14,6 +14,7 @@ import Image_ten from "../images/IMG_1172.JPG";
 import Image_eleven from "../images/IMG_1173.JPG";
 import Image_twelve from "../images/IMG_1174.JPG";
 // import Image_event from "../images/IMG_1283.jpg";
+import Image_thirteen from "../images/IMG_1981.jpg";
 
 
 
@@ -54,6 +55,14 @@ const images = [
   {
     original: Image_twelve,
     thumbnail: Image_twelve,
+  },
+  
+];
+
+const Event_images = [
+  {
+    original: Image_thirteen,
+    thumbnail: Image_thirteen,
   },
   
 ];
@@ -155,6 +164,14 @@ const Home = () => {
       </div>
       <div className="event_div">
         <h1 className="h1_home">Our Upcoming Event You dont want to Miss: </h1>
+        <h2 className="h1_home">Valentine's Day Special</h2>
+        <ImageGallery 
+          items={Event_images}
+          original={true}
+          showIndex={true}
+          showFullscreenButton={true}
+          showPlayButton={false}
+        />;
       </div>
     </>
   };

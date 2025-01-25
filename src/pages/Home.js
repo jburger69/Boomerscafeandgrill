@@ -138,11 +138,11 @@ const Home = () => {
                 <h2>Hours</h2>
                 <h4>Monday - Closed</h4>
                 <h4>Tuesday - Closed</h4>
-                <h4>Wensday - 3:00 pm - 9:00 pm</h4>
+                <h4>Wensday - Closed</h4>
                 <h4>Thursday - 3:00 pm - 9:00 pm</h4>
                 <h4>Friday - 3:00 pm - 9:00 pm</h4>
                 <h4>Saturday - 3:00 pm - 9:00 pm</h4>
-                <h4>Sunday(Brunch) - 8:00 am - 2:00 pm</h4>
+                <h4>Sunday(Brunch) - Closed</h4>
                 <br></br>
               </div>
             </Col>
